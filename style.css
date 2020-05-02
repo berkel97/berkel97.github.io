@@ -1,0 +1,186 @@
+
+* {
+     margin: 0;
+     padding: 0;
+ } 
+
+ body {
+     font: 16px Helvetica, Sans-Serif;
+     line-height: 24px;
+     background-image: url(myimage/download.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     color: darkorange;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+  #page-wrap {
+      width: 800px;
+      margin: 40px auto 60px;
+  }
+
+  #pic {
+      float: right;
+      margin: -30px 0 0 0;
+      height: 300px;
+      width: 300px;
+      
+      border-radius: 50%;
+  }
+
+  h1 {
+      margin: 0 0 16px 0;
+      padding: 0 0 16px 0;
+      
+      font-weight: bold;
+      letter-spacing: 0px;
+      border-bottom: 1px solid #999;
+  }
+
+  h2 {
+      font-size: 20px;
+      margin: 0 0 6px 0;
+      position: relative;
+  }
+
+  h2 span {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-style: italic;
+      font-family: Georgia, Serif;
+      font-size: 16px;
+      color: #999;
+      font-weight: normal;
+  }
+
+  p {
+      margin: 0 0 16px 0;
+  }
+
+   a {
+       color: burlywood;
+       text-decoration: none;
+       border-bottom: 1px dotted #999;
+   }
+
+   a:hover {
+       border-bottom-style: solid;
+       color: black;
+   }
+
+   ul {
+       margin: 0 0 32px 17px;
+   }
+
+   ul li {
+       color: burlywood;
+   }
+
+   #objective {
+       width: 500px;
+       float: left;
+   }
+
+   #objective p {
+       font-family: Georgia, Serif;
+       font-style: italic;
+       color: burlywood;
+   }
+
+   .hobbies {
+       display: flex;
+   }
+
+   .int {
+       float: left;
+       padding-left: 50px;
+   }
+
+   dt {
+       font-style: italic;
+       font-weight: bold;
+       font-size: 18px;
+       text-align: right;
+       padding: 0 26px 0 0;
+       width: 150px;
+       float: left;
+       height: 30px;
+       border-right: 1px solid #999;
+   }
+
+   dd {
+       width: 600px;
+       float: right;
+   }
+
+   dd.clear {
+       float: none;
+       margin: 0;
+       height: 15px;
+   }
+
+   .contact-form {
+      
+       min-width: 100px;
+       max-width: 450px;
+       margin: 0 auto;
+       padding: 50px;
+       border-radius: 20px 20px 20px 0;
+   }
+
+   .contact-form header {
+       text-align: center;
+       margin-bottom: 15px;
+   }
+
+   .contact-form h1 {
+       color: darkorange;
+       font-size: 1.5rem;
+       padding-bottom: 5px;
+   }
+
+   .contact-form .entry {
+       margin-bottom: 10px;
+
+   }
+
+   .contact-form label {
+       display: block;
+       font-size: .75rem;
+       color: darkorange;
+       margin-bottom: .25rem;
+       line-height: 1;
+       font-weight: 400;
+   }
+
+   .contact-form input, .contact-form textarea {
+       width: 100%;
+       color: #1a202c;
+       background-color: burlywood;
+       padding: .5rem;
+       border-radius: .25rem;
+       font-size: 80%;
+       border: 0;
+   }
+
+   .contact-form .submit button {
+       width: 105%;
+       background-color:darkorange;
+       font-size: .875rem;
+       color: #fff;
+       text-align: center;
+       padding: 1.25rem 2.5rem 1rem 2.5rem;
+       font-weight: 700;
+       border-radius: 0.75rem 0.75rem 0.75rem 0;
+       cursor: pointer;
+   }
+
+   .contact-form .submit button:hover {
+       background-color: burlywood;
+   }
